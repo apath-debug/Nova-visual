@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "novastyles",
+  "version": "${version}",
+  "name": "Nova Styles",
+  "description": "Client-side style menu (Right Shift): crystals, anchors, armor, fire.",
+  "authors": ["you"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.novastyles.NovaStylesClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-lifecycle-events-v1": "*"
+  }
+}
